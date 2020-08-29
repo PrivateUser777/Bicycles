@@ -1,7 +1,7 @@
 .generation {
 	padding: 117px 0 142px 0;
 	background-color: #f7f7f7;
-
+	
 
 	&__body {
 		text-align: center;
@@ -14,7 +14,15 @@
 
 	&__title {
 		margin-bottom: 35px;
+		// transform: translateY(200%);
+		// opacity: 0;
+		// transition: all 0.8s ease 0s;
 	}
+
+	// &__title.active {
+	// 	opacity: 1;
+	// 	transform: translateY(0px);
+	// }
 
 	&__text {
 	}
